@@ -2,6 +2,10 @@
 const generator = require('generate-password');
 const commandLineArgs = require('command-line-args');
 
+/**
+ * please refer options to https://www.npmjs.com/package/generate-password#available-options
+ * @type {({name: string, alias: string, type: NumberConstructor}|{name: string, alias: string, type: BooleanConstructor}|{name: string, alias: string, type: BooleanConstructor}|{name: string, type: BooleanConstructor}|{name: string, type: BooleanConstructor})[]}
+ */
 const optionDefinitions = [
   {name: 'length', alias: 'l', type: Number},
   {name: 'numbers', alias: 'n', type: Boolean},
@@ -11,6 +15,7 @@ const optionDefinitions = [
   {name: 'excludeSimilarCharacters', type: Boolean},
   {name: 'exclude', type: String},
   {name: 'strict', type: Boolean},
+  {name: 'help', alias: 'h', type: Boolean}, // will show option definitions and not generate password.
 ]
 const options = commandLineArgs(optionDefinitions);
 
@@ -18,15 +23,14 @@ if (Object.keys(options).length > 0) {
   console.log('options', options);
 }
 
-const password = generator.generate({
-  // length: 16,
-  // numbers: true,
-  // symbols: true,
-  // uppercase: true,
-  // lowercase: true,
-  // excludeSimilarCharacters:true,
-  ...options,
-});
+const {help = false} = options;
 
-// 'uEyMTw32v9'
-console.log(password);
+if (help) {
+  console.log('options available', optionDefinitions);
+} else {
+  const password = generator.generate(options);
+  console.log(password);
+}
+
+
+

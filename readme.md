@@ -16,7 +16,14 @@ password # this will generate a password for you.
 password --numbers -l 20 # The password contains numbers and length will be 20
 ```
 
+```bash
+options { numbers: true, length: 20 }   # output options
+l9y6eds7u8Q8wDKbIVuZ                    # output password
+```
+
 ## options available
+
+Please refer options to https://www.npmjs.com/package/generate-password#available-options
 
 ```js options
 const optionDefinitions = [
@@ -28,6 +35,7 @@ const optionDefinitions = [
   {name: 'excludeSimilarCharacters', type: Boolean},
   {name: 'exclude', type: String},
   {name: 'strict', type: Boolean},
+  {name: 'help', alias: 'h', type: Boolean}, // will show option definitions and not generate password
 ]
 ```
 
