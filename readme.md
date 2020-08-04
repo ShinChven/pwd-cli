@@ -2,6 +2,8 @@
 
 This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.
 
+Password generated will be like `W2qdtNrDPswdlVfz`.
+
 ## usage
 
 ```bash
