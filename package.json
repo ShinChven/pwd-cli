@@ -1,20 +1,27 @@
 {
   "name": "password-generator-cli",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.",
   "main": "index.js",
   "dependencies": {
     "command-line-args": "^5.1.1",
     "generate-password": "^1.5.1"
   },
+  "repository": {
+    "url": "https://github.com/ShinChven/password-generator-cli.git"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "bin": {
-    "password": "src/index.js"
+    "password": "src/index.js",
+    "pwd-gen": "src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "ShinChven ZHANG",
+    "email": "shinchven@gmail.com"
+  },
   "license": "ISC"
 }

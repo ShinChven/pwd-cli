@@ -39,6 +39,12 @@ const optionDefinitions = [
 ]
 ```
 
+## install
+
+```npm
+npm install -g pwd-cli
+```
+
 ## install from source
 
 clone this repository and run `npm link`.
