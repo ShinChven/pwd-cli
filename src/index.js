@@ -19,11 +19,11 @@ if (Object.keys(options).length > 0) {
 }
 
 const password = generator.generate({
-  length: 16,
-  numbers: true,
+  // length: 16,
+  // numbers: true,
   // symbols: true,
-  uppercase: true,
-  lowercase: true,
+  // uppercase: true,
+  // lowercase: true,
   // excludeSimilarCharacters:true,
   ...options,
 });

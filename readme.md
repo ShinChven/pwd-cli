@@ -2,7 +2,7 @@
 
 This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.
 
-Password generated will be like `W2qdtNrDPswdlVfz`.
+Password generated will be like `GFZmGFWBVJ`.
 
 ## usage
 
@@ -13,7 +13,7 @@ password # this will generate a password for you.
 ## use with options
 
 ```bash
-password -l 20 # set password's length 
+password --numbers -l 20 # The password contains numbers and length will be 20
 ```
 
 ## options available
