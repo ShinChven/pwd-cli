@@ -1,8 +1,14 @@
-# password-generator-cli
+# pwd-cli
 
 This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.
 
 Password generated will be like `GFZmGFWBVJ`.
+
+## install
+
+```npm
+npm install -g pwd-cli
+```
 
 ## usage
 
@@ -37,12 +43,6 @@ const optionDefinitions = [
   {name: 'strict', type: Boolean},
   {name: 'help', alias: 'h', type: Boolean}, // will show option definitions and not generate password
 ]
-```
-
-## install
-
-```npm
-npm install -g pwd-cli
 ```
 
 ## install from source

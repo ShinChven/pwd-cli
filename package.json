@@ -1,6 +1,6 @@
 {
   "name": "pwd-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.",
   "main": "index.js",
   "dependencies": {
@@ -18,7 +18,11 @@
     "password": "src/index.js",
     "pwd-gen": "src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "password",
+    "cli",
+    "password generator"
+  ],
   "author": {
     "name": "ShinChven ZHANG",
     "email": "shinchven@gmail.com"
