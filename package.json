@@ -1,6 +1,6 @@
 {
   "name": "pwd-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) and [bcrypt](https://www.npmjs.com/package/bcrypt) to generate and hash password from command line.",
   "main": "index.js",
   "dependencies": {
