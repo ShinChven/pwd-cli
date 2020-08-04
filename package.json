@@ -1,14 +1,15 @@
 {
   "name": "pwd-cli",
-  "version": "0.0.3",
-  "description": "This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) to generate password from command line.",
+  "version": "0.1.0",
+  "description": "This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) and [bcrypt](https://www.npmjs.com/package/bcrypt) to generate and hash password from command line.",
   "main": "index.js",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "command-line-args": "^5.1.1",
     "generate-password": "^1.5.1"
   },
   "repository": {
-    "url": "https://github.com/ShinChven/password-generator-cli.git"
+    "url": "https://github.com/ShinChven/pwd-cli.git"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,12 +17,14 @@
   },
   "bin": {
     "password": "src/index.js",
-    "pwd-gen": "src/index.js"
+    "hash-pwd": "src/hash-password-cli.js"
   },
   "keywords": [
     "password",
     "cli",
-    "password generator"
+    "password generator",
+    "hash password",
+    "bcrypt"
   ],
   "author": {
     "name": "ShinChven ZHANG",
