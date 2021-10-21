@@ -13,6 +13,7 @@
     "password": "lib/index.js",
     "hash-pwd": "lib/hash-password-cli.js"
   },
+  "main": "lib/index.js",
   "keywords": [
     "password",
     "cli",
