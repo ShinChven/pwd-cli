@@ -1,6 +1,6 @@
 # pwd-cli
 
-This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) and [bcrypt](https://www.npmjs.com/package/bcrypt) to generate and hash password from command line.
+This is a cli wrapper for [generate-password](https://www.npmjs.com/package/generate-password) and [bcryptjs](https://www.npmjs.com/package/bcryptjs) to generate and hash password from command line.
 
 Password generated will be like `GFZmGFWBVJ`.
 
