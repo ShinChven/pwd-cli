@@ -6,6 +6,8 @@ Password generated will be like `GFZmGFWBVJ`.
 
 ## Install
 
+[![npm version](http://img.shields.io/npm/v/pwd-cli.svg)](https://npmjs.org/package/pwd-cli)
+
 ```npm
 npm install -g pwd-cli
 ```
