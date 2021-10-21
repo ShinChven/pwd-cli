@@ -58,6 +58,11 @@ const optionDefinitions = [
 hash-pwd <YOUR_PASSWORD>
 ```
 
+```bash
+hash-pwd super_secret
+$2a$10$jKwDbN2d4aLmC7tiaoqoXeTpExgCd2LBGnVc.oQTZhTG6I7sh4hYm
+```
+
 ## Install from source
 
 clone this repository and run `npm link`.
