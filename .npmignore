@@ -1,13 +1,10 @@
-output/
-lib/
-
-test/config.json
-
-*.sqlite
-
 # Created by .ignore support plugin (hsz.mobi)
 ### Linux template
 *~
+
+*.sqlite
+test/
+tsconfig.test.json
 
 # temporary files which can be created if a process still has a handle open of a deleted file
 .fuse_hidden*
@@ -46,8 +43,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-package-lock.json
 
 ### Node template
 # Logs
@@ -167,14 +162,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
 ### macOS template
 # General
 .DS_Store
@@ -203,3 +190,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+gen
